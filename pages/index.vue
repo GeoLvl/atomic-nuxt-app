@@ -1,15 +1,10 @@
 <template>
-
-<div>
-<nav-bar/>
-<img class="bg-cover max-h-96 max-w-full" src="../static/bg-van.jpeg" alt="Van life"/>
-<button-primary text="Je découvre"/>
-<van-card/>
-
-  
-
-</div>
-  
+  <div>
+  <nav-bar/>
+  <img class="bg-cover max-h-96 max-w-full" src="../static/bg-van.jpeg" alt="Van life"/>
+  <button-primary text="Je découvre"/>
+  <van-card/>
+  </div>  
 </template>
 
 <script>
