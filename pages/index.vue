@@ -2,7 +2,10 @@
   <div>
   <nav-bar/>
   <home-banner/>
-  <button-primary text="Je découvre"/>
+  <div class="text-center p-10">
+    <h2 class="text-3xl font-bold">Partez à la découverte du monde <br> louer le van idéal pour votre aventure avec Yespapa !</h2>
+    <button-primary text="Je découvre"/>
+  </div>
   <!-- <van-card/> -->
   </div>  
 </template>
