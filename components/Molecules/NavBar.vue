@@ -2,7 +2,7 @@
 <header class="sticky top-0 z-10 grid grid-cols-2 md:grid-cols-3 bg-red-500 shadow-md p-5 md:px-10 bg-gradient-to-r from-cyan-500 to-teal-500 ">
     <div class="relative flex items-center h-10">
         <!-- <logo-typo/> -->
-        <p class="text-white text-3xl font-bold">Yespapa</p>
+        <NuxtLink to="/"><p class="text-white text-3xl font-bold">Yespapa</p></NuxtLink>        
     </div>
     <div class="flex items-center hidden md:flex border-2 rounded-full py-2 ">
         <input type="text" placeholder="Rechercher un van" class="flex-grow pl-5 bg-transparent outline-none placeholder-gray-100 text-white">

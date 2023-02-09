@@ -13,7 +13,6 @@
 <script>
 import ButtonPrimary from '../components/Atoms/ButtonPrimary.vue'
 import NavBar from '../components/Molecules/NavBar.vue'
-// import VanCard from '../components/Molecules/VanCard.vue'
 import HomeBanner from '../components/Atoms/HomeBanner.vue'
 
 export default {
