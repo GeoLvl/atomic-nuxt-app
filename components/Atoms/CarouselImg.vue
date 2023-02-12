@@ -41,7 +41,6 @@ export default {
   },
   computed: {
     pictures() {
-        console.log('hello', this.van.pictures)
         return this.van.pictures
     }
   }
