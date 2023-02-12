@@ -50,9 +50,10 @@
                                 <p class="mb-3">Le ZoomZoom 1000 peut être un véhicule de livraison, un camping-car ou un transport de personnes. Chacun adapté à des besoins différents. Partez en vacances avec le camping-car ou emmenez tous vos amis en road-trip avec le transport de personnes.</p>
                                 <p class="mb-3">Le ZoomZoom 1000 peut transporter beaucoup de charges, offre une liberté pour les déplacements en groupe et peut même être personnalisé. Certains modèles peuvent même être transformés en petite maison sur roues. Options supplémentaires telles que lits, cuisines et salles de bain assurent un confort supplémentaire.</p>
                             </div>
-                            <div class="flex justify-center md:justify-end">
+                            <div class="flex flex-col items-center md:flex-row md:justify-end p4"> 
+                                <!-- flex justify-center md:justify-end -->
                                 <button-secondary text="Retour" link="/vans"/>
-                                <button-primary  text="Je réserve" link="#"/>
+                                <button-primary text="Je réserve" link="#"/>
                             </div>
                         </div>
                     </div>

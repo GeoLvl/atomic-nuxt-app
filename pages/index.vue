@@ -3,7 +3,7 @@
     <nav-header/>
     <home-banner/>
       <div class="text-center p-10">
-        <h2 class="text-3xl font-bold">Partez à la découverte du monde <br> louer le van idéal pour votre aventure avec Yespapa !</h2>
+        <h2 class="text-3xl font-bold mb-8">Partez à la découverte du monde <br> louer le van idéal pour votre aventure avec Yespapa !</h2>
         <button-primary text="Je découvre" link="/vans"/>
       </div>
   </div>  
