@@ -9,6 +9,9 @@
           <main class="col-span-2 mt-10">
             <h2 class="text-gray-700 text-3xl font-bold mb-5">{{ filteredVans.length }} Van(s) disponible(s)</h2>        
             <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+              <template v-if="filteredVans.length === 0">
+                <p class="text-gray-700 mb-3">Nous sommes désolé, aucun vans ne correspond à votre recherche</p>
+              </template>
               <NuxtLink v-for="filteredVan in filteredVans" :key="filteredVan.id" :to="`/vans/${filteredVan.id}`">
                 <van-card :van="filteredVan"/>
               </NuxtLink>
