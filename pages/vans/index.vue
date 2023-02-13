@@ -7,7 +7,7 @@
             <filter-col @submit="submit"/>
           </aside>          
           <main class="col-span-2 mt-10">
-            <h2 class="text-gray-700 text-3xl font-bold mb-5">Vans disponibles</h2>        
+            <h2 class="text-gray-700 text-3xl font-bold mb-5">{{ filteredVans.length }} Van(s) disponible(s)</h2>        
             <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
               <NuxtLink v-for="filteredVan in filteredVans" :key="filteredVan.id" :to="`/vans/${filteredVan.id}`">
                 <van-card :van="filteredVan"/>
