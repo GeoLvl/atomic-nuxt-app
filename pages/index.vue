@@ -14,12 +14,11 @@
 </template>
 
 <script>
-import NavHeader from '../components/Organisms/NavHeader.vue'
 import HomeBanner from '../components/Atoms/HomeBanner.vue'
 import ButtonPrimary from '../components/Atoms/ButtonPrimary.vue'
 
 export default {
   name: 'IndexPage',
-  components: { NavHeader, HomeBanner, ButtonPrimary },
+  components: {  HomeBanner, ButtonPrimary },
 }
 </script>

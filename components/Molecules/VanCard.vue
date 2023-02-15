@@ -2,6 +2,7 @@
   <div
     class="mx-4 my-4 md:mx-0 md:mr-10 rounded-lg overflow-hidden shadow-md hover:bg-gray-100 hover:scale-105 transition transform duration-200 ease-out"
   >
+    <nuxt-link class="absolute w-full h-full" :to="`/vans/${van.id}`"></nuxt-link>
     <img
       class="object-cover bg-gray-50 w-full max-h-72 h-72 sm:max-h-52 sm:h-52"
       :src="van.pictures[0].url"
