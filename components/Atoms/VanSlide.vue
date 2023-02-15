@@ -1,9 +1,7 @@
-<template>
-  <transition :name="dir">
+<template>  
     <div v-show="visible">
-      <slot ></slot>
-    </div>
-  </transition>
+      <slot></slot>
+    </div>  
 </template>
 
 <script>
@@ -17,10 +15,7 @@ export default {
   computed: {
     visible() {
       return this.index === this.$parent.index
-    },
-    dir() {
-      return this.$parent.slideDirection
-    },
+    }
   },
 }
 </script>

@@ -62,8 +62,7 @@ export default {
   data() {
     return {
       index: 0,
-      slides: [],
-      slideDirection: '',
+      slides: []
     }
   },
   computed: {
@@ -84,14 +83,12 @@ export default {
       if (this.index >= this.slidesLength) {
         this.index = 0
       }
-      this.slideDirection = 'slide-right'
     },
     prev() {
       this.index--
       if (this.index < 0) {
         this.index = this.slidesLength - 1
       }
-      this.slideDirection = 'slide-left'
     },
   }
 }
