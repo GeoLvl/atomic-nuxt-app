@@ -58,22 +58,22 @@
         </p>
       </div>
       <div class="flex flex-col items-center md:flex-row md:justify-end p4">
-        <button-secondary text="Retour" link="/vans" />
-        <button-primary text="Je réserve" link="#" />
+        <!-- <button-secondary text="Retour" link="/vans" /> -->
+        <base-button to="/vans" class="box-border border-2 border-teal-500 hover:border-teal-600 hover:to-teal-600 text-teal-500 hover:text-teal-600 py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1">Retour</base-button>
+        <!-- <button-primary text="Je réserve" link="#" /> -->
+        <base-button to="#" class="box-border bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1">Je réserve</base-button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ButtonPrimary from '../Atoms/ButtonPrimary.vue'
-import ButtonSecondary from '../Atoms/ButtonSecondary.vue'
+import BaseButton from '../Atoms/BaseButton.vue'
 
 export default {
   name: 'VanDescription',
   components: {
-    ButtonPrimary,
-    ButtonSecondary,
+    BaseButton,
   },
   props: {
     van: {

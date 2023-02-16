@@ -37,26 +37,34 @@
         <div
           class="flex flex-col items-center md:flex-row md:justify-center p4"
         >
-          <button
+          <!-- <button
             type="submit"
             class="box-border border-2 border-teal-500 hover:border-teal-600 hover:to-teal-600 text-teal-500 hover:text-teal-600 py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1"
           >
             Retour
-          </button>
-          <button
+          </button> -->
+          <base-button 
+            type="submit"
+            class="box-border border-2 border-teal-500 hover:border-teal-600 hover:to-teal-600 text-teal-500 hover:text-teal-600 py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1">Retour</base-button>
+          <!-- <button
             type="submit"
             class="box-border bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1"
           >
             Rechercher
-          </button>
+          </button> -->
+          <base-button 
+            type="submit"
+            class="box-border bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1">Rechercher</base-button>
         </div>
       </form>
   </div>
 </template>
 
 <script>
+import BaseButton from '../Atoms/BaseButton.vue'
 export default {
   name: 'FormFilter',
+  components: { BaseButton },
 
   data() {
     return {

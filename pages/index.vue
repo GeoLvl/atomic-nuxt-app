@@ -8,17 +8,18 @@
         louer le van idéal pour votre aventure<br/> 
         avec Yespapa !
       </h2>
-      <button-primary text="Je découvre" link="/vans" />
+      <!-- <button-primary text="Je découvre" link="/vans" /> -->
+      <base-button to="/vans" class="box-border bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1 m-auto">Je découvre</base-button>
     </div>
   </div>
 </template>
 
 <script>
 import HomeBanner from '../components/Atoms/HomeBanner.vue'
-import ButtonPrimary from '../components/Atoms/ButtonPrimary.vue'
+import BaseButton from '../components/Atoms/BaseButton.vue'
 
 export default {
   name: 'IndexPage',
-  components: {  HomeBanner, ButtonPrimary },
+  components: {  HomeBanner, BaseButton },
 }
 </script>
