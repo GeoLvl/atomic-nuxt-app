@@ -58,9 +58,7 @@
         </p>
       </div>
       <div class="flex flex-col items-center md:flex-row md:justify-end p4">
-        <!-- <button-secondary text="Retour" link="/vans" /> -->
         <base-button to="/vans" class="box-border border-2 border-teal-500 hover:border-teal-600 hover:to-teal-600 text-teal-500 hover:text-teal-600 py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out m-1 ">Retour</base-button>
-        <!-- <button-primary text="Je réserve" link="#" /> -->
         <base-button to="#" class="box-border bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out m-1">Réserver</base-button>
       </div>
     </div>
