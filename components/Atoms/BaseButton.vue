@@ -1,5 +1,5 @@
 <template>
-  <component :is="type" :to="to">
+    <component :is="type" :to="to">
     <slot/>
   </component>
 </template>

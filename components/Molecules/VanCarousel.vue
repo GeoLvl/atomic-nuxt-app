@@ -7,7 +7,7 @@
       @click.prevent="next"
     >
       <span
-        class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-cyan-500/30 group-hover:bg-cyan-500/80 group-hover:bg-gray-800/60 
+        class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-cyan-500/30 group-hover:bg-cyan-500/80 group-hover:bg-cyan-500/60
         group-focus:outline-none"
       >
         <svg

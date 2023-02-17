@@ -12,7 +12,7 @@
     </div>
     <div class="flex justify-center">
       <!-- <button-primary text="Je loue" link="#" /> -->
-      <base-button to="#" class="box-border border-2 border-teal-500 hover:border-teal-600 hover:to-teal-600 text-teal-500 hover:text-teal-600 py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1">Je loue</base-button>
+      <base-button class="box-border bg-gradient-to-r from-cyan-500 to-teal-500 hover:from-cyan-600 hover:to-teal-600 text-white py-3 px-9 rounded-full text-xl font-bold hover:scale-105 transition transform duration-200 ease-out h-14 w-48 m-1">Je loue</base-button>
     </div>
   </div>
 </template>
